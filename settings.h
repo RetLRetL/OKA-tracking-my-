@@ -57,7 +57,7 @@ enum class ZOrder
 {
     DecreasingZ,
     IncreasingZ
-};
+};  
 
 /// Choose order of planes in CKF
 const ZOrder CKF_Z_ORDER = ZOrder::DecreasingZ;
